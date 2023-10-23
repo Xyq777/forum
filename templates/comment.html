@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../static/css/layout.css">
+</head>
+<body>
+<div class="all">
+    <button style="position: absolute;left: 2%;top: 3%" class="back">返回首页</button>
+    <div>
+    <p class="post-name">发布人</p>
+    <p class="post-time">发布时间</p>
+    <p class="post-text">帖子内容</p>
+    <div class="post-ID" style="display: none"></div></div>
+<ol class="comment-list">
+
+
+</ol>
+    <div class="bottom-navigation" style="position: fixed;bottom: 0;z-index: 5000">
+        <form class="comment-form">
+            <input style="width: 50vw;height: 5vh" name="comment" required class="comment-form-input">
+            <input type="submit" value="评论">
+        </form>
+    </div>
+</div>
+</body>
+<script src="../static/js/comment/loadComment.js"></script>
+</html>

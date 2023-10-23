@@ -1,0 +1,115 @@
+body{
+    display: flex;
+    justify-content: center;
+
+    background-color: black;
+
+}
+.all{
+
+    min-height: 300px;
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius:5px ;
+    padding-top: 7px;
+}
+
+.form{
+    min-height: 200px;
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.form-body{
+    min-height: 200px;
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-head{
+    font-size: 1.5vw;
+    width: 92%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    height: 10%;
+    min-height: 20px;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 3%;
+    border-bottom-color: aqua;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+}
+.form-head-close{
+    height: 50%;
+
+}
+
+.form-head-submit{
+    font-size: 1.3vw;
+    color: black;
+    line-height:100%;
+    text-align: center;
+    border: hidden;
+    border-radius: 5px;
+    height: 2vw;
+    background-color: aqua;
+
+}
+.form-head-submit:hover{
+
+    background-color: aquamarine;
+
+}
+
+
+
+.form-content{
+    width: 90%;
+    min-height: 100px;
+    padding-top: 5px;
+}
+.form-content-input {
+    width: 100%;
+    height: 100%;
+    border: hidden;
+    outline: none;
+}
+.form-bottom{
+
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:start;
+    margin: 5px;
+    height:5%;
+    width:100%;
+    font-size: 1vw;
+}
+.form-bottom-tag{
+    height: 100%;
+    width: 5.5vw;
+    background-color: aqua;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.form-tag-add{
+    height: 10px;
+}

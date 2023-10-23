@@ -1,0 +1,47 @@
+.content-body{
+    width: 98%;
+    padding:0 1% 1% 1%;
+}
+.content-body-text{
+
+    display: flex;
+    flex-direction: row;
+    width: inherit;
+}
+.textAndRdquo{
+    overflow: hidden;
+    width: inherit;
+    word-wrap: break-word;
+}
+.textAndRdquo span{
+    position: relative;
+    left: 9px;
+    color: grey;
+    bottom: -9px;
+    font-size: large;
+}
+.lqduo{
+    position: relative;
+    left: -9px;
+
+    color: grey;
+    font-size: large;
+}
+.content-body-img{
+    width: inherit;
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+
+
+
+}
+.content-body-img img{
+    border-radius: 5px;
+
+    width: calc(33.33% - 5px);
+    height: calc(50% - 5px);
+
+}
